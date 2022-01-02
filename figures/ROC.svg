@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="ROC.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.1108586"
+     inkscape:cx="230.16154"
+     inkscape:cy="173.10334"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round"
+         id="path963" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path966" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path942" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow2Mend);marker-start:url(#Arrow2Mstart)"
+       d="M 17.570078,16.387113 V 66.260347 H 67.443312"
+       id="path857" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="28.843456"
+       y="70.695526"
+       id="text4547"><tspan
+         sodipodi:role="line"
+         id="tspan4545"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="28.843456"
+         y="70.695526">hamis pozitív ráta</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-51.214046"
+       y="15.854486"
+       id="text8797"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan8795"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="-51.214046"
+         y="15.854486">igaz pozitív ráta</tspan></text>
+    <path
+       style="fill:none;stroke:#02df00;stroke-width:0.269466px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 17.505917,18.973983 h 50"
+       id="path14192" />
+    <path
+       style="fill:none;stroke:#a4a4a4;stroke-width:0.26458299;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.52916597, 0.26458299;stroke-dashoffset:0"
+       d="M 17.570078,66.260347 67.505915,18.973983"
+       id="path14307" />
+    <path
+       style="fill:none;stroke:#89499f;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 17.570078,66.260347 v -9.017601 h 3.604995 v -6.116145 h 3.58506 v -10.99245 h 1.315163 v -2.378049 h 4.798332 v -8.350858 h 12.01162 V 24.0867 h 10.336774 v -3.463559 h 6.095161 v -1.565994 h 8.127447"
+       id="path16449" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="20.555313"
+       y="17.676985"
+       id="text20324"><tspan
+         sodipodi:role="line"
+         id="tspan20322"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="20.555313"
+         y="17.676985">tökéletes osztályzó   AUC = 1.0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-11.532245"
+       y="63.359917"
+       id="text25838"
+       transform="rotate(-45)"><tspan
+         sodipodi:role="line"
+         id="tspan25836"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="-11.532245"
+         y="64.390686">véletlen találgatás</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="-11.532245"
+         y="67.918465"
+         id="tspan48212">      AUC = 0.5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="18.81566"
+       y="28.140905"
+       id="text35080"><tspan
+         sodipodi:role="line"
+         id="tspan35078"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="18.81566"
+         y="28.140905">köztes osztályzó</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="15.466632"
+       y="68.745453"
+       id="text53478"><tspan
+         sodipodi:role="line"
+         id="tspan53476"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="15.466632"
+         y="68.745453">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="14.725815"
+       y="19.844715"
+       id="text54934"><tspan
+         sodipodi:role="line"
+         id="tspan54932"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="14.725815"
+         y="19.844715">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="64.996719"
+       y="70.225632"
+       id="text57132"><tspan
+         sodipodi:role="line"
+         id="tspan57130"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="64.996719"
+         y="70.225632">1</tspan></text>
+  </g>
+</svg>

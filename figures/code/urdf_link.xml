@@ -1,0 +1,26 @@
+    <link name='custom_link'>
+        <pose>0 0 0 0 0 0</pose>
+        <inertial>
+            <mass value="0.1" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+        </inertial>
+        <collision name='collision'>
+            <origin xyz="0.05 0 -.5" rpy=" 0 0 0" />
+            <geometry>
+                <!--mesh filename = "package://biscee_simulation/meshes/rb1.dae"/-->
+                <cylinder length="1.0" radius="0.20" />
+            </geometry>
+        </collision>
+        <visual name='base_link_visual'>
+            <!--origin xyz="-0.250091 0.461716 -0.006178" rpy=" 0 0 0" /-->
+            <origin xyz="-0.250 0.462 -1.67" rpy=" 0 0 0" />
+            <!--origin xyz="0.05 0 -.5" rpy=" 0 0 0" /-->
+            <geometry>
+                <!--box size=".4 .2 .1"/-->
+                <mesh filename = "package://biscee_simulation/meshes/biscee.dae"/>
+                <!--cylinder length="1.0" radius="0.20" /-->
+            </geometry>
+            <material name="orange" />
+        </visual>
+    </link>

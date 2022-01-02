@@ -1,0 +1,6 @@
+    <joint type="fixed" name="custom_joint">
+        <origin xyz="0.0 0 1.5" rpy="0 0 0" />
+        <child link="custom_link" />
+        <parent link="${base_link_name}" />
+        <axis xyz="0 1 0" />
+    </joint>

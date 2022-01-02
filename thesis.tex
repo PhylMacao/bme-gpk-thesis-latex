@@ -3,8 +3,8 @@
 %--------------------------------------------------------------------------------------
 
 %TODO Válaszd ki, hogy egyoldalas vagy kétoldalas legyen! [Choose format]
-\documentclass[12pt,a4paper,oneside]{report}             % Egyoldalas [Single-side]
-%\documentclass[12pt,a4paper,twoside,openright]{report}  % Kétoldalas [Duplex]
+%\documentclass[12pt,a4paper,oneside]{report}             % Egyoldalas [Single-side]
+\documentclass[12pt,a4paper,oneside,openright]{report}  % Kétoldalas [Duplex]
 
 
 %--------------------------------------------------------------------------------------
@@ -42,8 +42,8 @@
 %--------------------------------------------------------------------------------------
 
 %TODO Válaszd ki a munkatípust [Select thesis type]
-\selectbsc    % Szakdolgozat [Bachelor's]
-%\selectmsc   % Diplomaterv [Master's]
+%\selectbsc    % Szakdolgozat [Bachelor's]
+\selectmsc   % Diplomaterv [Master's]
 
 
 %--------------------------------------------------------------------------------------
@@ -53,21 +53,21 @@
 %TODO Állítsd be az alábbi változókat [Set these variables]
 
 % Szerző [Author]
-\def\authorFamilyName{Mogi}
-\def\authorGivenName{Róbert}
-\def\neptun{ABC123}
+\def\authorFamilyName{Pelle}
+\def\authorGivenName{János Fülöp}
+\def\neptun{JPW0YB}
 
 % Konzulens 1 [Consulent 1]
 \def\consulentATitle{dr.~}
-\def\consulentAFamilyName{Konzulens}
-\def\consulentAGivenName{Egy}
-\def\consulentARank{mestertanár}
+\def\consulentAFamilyName{Ferdinandy}
+\def\consulentAGivenName{Bence}
+\def\consulentARank{tudományos munkatárs}
 
 % Konzulens 2 [Consulent 2], ha nincs hagyd üresen
 \def\consulentBTitle{}
-\def\consulentBFamilyName{Konzulens}
-\def\consulentBGivenName{Kettő}
-\def\consulentBRank{okl. gépészmérnök}
+\def\consulentBFamilyName{}
+\def\consulentBGivenName{}
+\def\consulentBRank{}
 
 % Konzulens 3 [Consulent 3], ha nincs hagyd üresen 
 \def\consulentCTitle{}
@@ -76,16 +76,16 @@
 \def\consulentCRank{}
 
 % Témavezető
-\def\supervisorTitle{dr.~}
-\def\supervisorFamilyName{Témavezető}
-\def\supervisorGivenName{Egy}
-\def\supervisorRank{adjunktus}
+\def\supervisorTitle{}
+\def\supervisorFamilyName{Korcsok}
+\def\supervisorGivenName{Beáta}
+\def\supervisorRank{doktorandusz}
 
 % Dolgozat címe [Thesis title]
-\def\thesisTitle{Gazdájához kötődő PID-szabályozó tervezése}
+\def\thesisTitle{Szemantikai információ biztosítása robotok számára korlátozott hardveren}
 
 % Kulcsszavak (a PDF-be) [Keywords (to PDF)]
-\def\keywords{mechatronika, szabályozástechnika, etorobotika, ipar 4.0}
+\def\keywords{mechatronika, gépi látás, etorobotika,}
 
 % Tanszék [Department]
 %TODO Válassz az alábbiak közül
@@ -119,7 +119,7 @@
 \include{include/titlepage-thesis}  % Szakdolgozat/Diplomaterv címlap [Thesis]
 
 
-% Copytightoldal [Copyright page]
+% Copyrightoldal [Copyright page]
 %TODO Válaszd ki a megfelelőt! [Choose one]
 \include{include/copyrightpage}               % Nyílt kezelésű [Open access]
 %\include{include/copyrightpage-restricted}   % Elzárt kezelésű [Restricted access]
@@ -150,7 +150,7 @@
 
 
 % Jelölések jegyzéke [Table of Symbols]
-\include{chapters/symbols}
+%\include{chapters/symbols}
 
 
 % Főszöveg [The main part of the thesis]
@@ -158,9 +158,12 @@
 \pagenumbering{arabic}
 %TODO Importáld a saját fejezeteidet [Import your own content]
 \include{chapters/introduction}      % Bevezetés
-\include{chapters/latex-tools}       % 2. fejezet
-\include{chapters/thesis-format}     % 3. fejezet
-\include{chapters/template-usage}    % 4. fejezet
+\include{chapters/background.tex}    % Irodalom
+\include{chapters/methods.tex}
+\include{chapters/results.tex}
+%\include{chapters/latex-tools}       % 2. fejezet
+%\include{chapters/thesis-format}     % 3. fejezet
+%\include{chapters/template-usage}    % 4. fejezet
 \include{chapters/summary}           % Összefoglalás
 
 
@@ -168,7 +171,7 @@
 \addcontentsline{toc}{chapter}{\bibname}
 {
     \footnotesize  % Kisebb betűméret [Smaller font size]
-    \bibliography{bib/mybib}
+    \bibliography{bib/Diploma}
 }
 
 
