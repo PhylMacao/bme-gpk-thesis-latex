@@ -27,6 +27,15 @@
 %% for notes in tables
 \usepackage{marginnote}
 \renewcommand{\marginpar}{\marginnote}
+%% dockerfile listings
+\lstdefinelanguage{Dockerfile}
+{
+  morekeywords={FROM, RUN, CMD, LABEL, MAINTAINER, EXPOSE, ENV, ADD, COPY,
+    ENTRYPOINT, VOLUME, USER, WORKDIR, ARG, ONBUILD, STOPSIGNAL, HEALTHCHECK,
+    SHELL},
+  morecomment=[l]{\#},
+  morestring=[b]"
+}
 
 %\usepackage{fancyhdr} % For easy to use headers and footers
 
